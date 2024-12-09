@@ -10,7 +10,7 @@ DEFAULT_LOOKUP_FILE = 'deye_hybrid.yaml'
 LOOKUP_FILES = (sorted([f for f in os.listdir(os.path.dirname(__file__) + '/inverter_definitions') if f.endswith('.yaml')]))
 
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=15)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=10)
 
 CONF_INVERTER_HOST = 'inverter_host'
 CONF_INVERTER_PORT = 'inverter_port'
